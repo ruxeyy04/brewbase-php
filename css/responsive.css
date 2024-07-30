@@ -1,0 +1,254 @@
+@media only screen and (max-width : 991px) {
+	/* HEADER */
+	.site-header {
+		padding-top: 20px;
+	}
+    .site-title {
+		margin-bottom: 20px;
+	}
+	.section-features .imgfeature {
+		display: none;
+	}
+	.profile {
+		margin: 20px auto;
+	}
+	.profile-info {
+		margin-left: 0 !important;
+	}
+	.search-box{
+		margin-top: 11px;
+		display: flex ;
+	  position: absolute !important;
+	  top: 50%;
+	  left: 50%;
+	  transform: translate(-50%,-50%);
+	  background: #3b3b3b;
+	  height: 40px;
+	  border-radius: 40px;
+	
+	
+	}
+}
+
+@media only screen and (max-width : 767px) {
+	.row-form {
+		display: inline-block !important;
+	}
+	.register-form {
+		height: 1900px !important;
+	}
+	.profile-info {
+		margin-left: 0 !important;
+	}
+	.main {
+		margin: 0 !important;
+	}
+	.search-box{
+	margin-top: 11px;
+	display: flex;
+	position: absolute !important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	background: #3b3b3b;
+	height: 40px;
+	border-radius: 40px;
+
+	}
+	.section-features .imgfeature {
+		display: none;
+	}
+    .site-header {
+		padding-top: 18px;
+	}
+    .site-title {
+		padding-left: 15px;
+	}
+    .site-title {
+		margin-bottom: 15px;
+	}
+    .site-header-white .slicknav_icon-bar {
+		background-color: #fff;
+	}
+
+	.site-header-white  .act .slicknav_icon-bar {
+		background-color: #26272d;
+	}
+    /* Navigation */
+	.site-navigation {
+		position: absolute;
+	}
+
+	.main-menu {
+		display: none;
+	}
+
+	.slicknav_menu,
+	.slicknav_item {
+		position: relative;
+		z-index: 9999;
+	}
+
+	.slicknav_btn {
+		position: absolute;
+		right: 0;
+		margin: 0 15px 0 0;
+		padding: 5px;
+		z-index: 9999;
+	}
+
+	.act .slicknav_btn {
+		height: 22px;
+		position: fixed;
+	}
+
+	.slicknav_icon-bar {
+		height: 2px;
+		width: 22px;
+		display: block;
+		background-color: #26272d;
+	
+		transition: all 0.3s;
+	}
+
+	.slicknav_icon-bar + .slicknav_icon-bar {
+		margin-top: 4px;
+	}
+
+	.site-header-white .slicknav_icon-bar {
+		background-color: #fff;
+	}
+
+	.site-header-white  .act .slicknav_icon-bar {
+		background-color: #26272d;
+	}
+
+	.act .slicknav_icon-bar:first-child, 
+	.act .slicknav_icon-bar:last-child  { 
+		position: absolute;
+		top: 10px;
+		height: 3px;
+	}
+
+	.act .slicknav_icon-bar:first-child {
+		
+		transform: rotate(45deg);
+	}
+
+	.act .slicknav_icon-bar:last-child  {
+		
+		transform: rotate(-45deg);
+	}
+
+	.act .slicknav_icon-bar:nth-child(2) {
+		opacity: 0;
+	}
+
+	.act .slicknav_icon-bar + .slicknav_icon-bar  {
+  		margin-top: 0px;
+	}
+
+	.slicknav_nav {
+		background-color: #f5f5f8;
+		padding-left: 0;
+		list-style: none;
+		position: fixed;
+		left: 0;
+		top: 0;
+		z-index: 100;
+		height: 100%;
+		width: 100%;
+		overflow-y: scroll;
+		text-align: center;
+	}
+
+	.act .slicknav_nav {
+		-webkit-transform: scale(1);
+		transform: scale(1);
+	}
+
+	.slicknav_nav > li:first-child {
+		margin-top: 70px;
+	}
+
+	.slicknav_nav > li:last-child {
+		margin-bottom: 60px;
+	}
+
+	.slicknav_nav > li {
+		padding: 5px 0;
+		-webkit-transition: all 400ms 510ms;
+		transition: all 400ms 510ms;
+		opacity: 0;
+	}
+
+	.slicknav_nav > li {
+		-webkit-transform: translateY(50%);
+		      transform: translateY(50%);
+	}
+
+	.act .slicknav_nav > li {
+		opacity: 1;
+		-webkit-transform: translateX(0);
+		      transform: translateX(0);
+	}
+
+	.slicknav_nav > li a {
+		display: inline-block;
+		color: #26272d;
+		font-size: 14px;
+	}
+
+	.slicknav_arrow {
+		position: absolute;
+		right: -40px;
+		bottom: 0;
+		padding: 0 8px;
+	}
+
+	.slicknav_nav ul.dropdown-menu {
+		display: none;
+		position: relative;
+		visibility: visible;
+		opacity: 1;
+	}
+
+	.slicknav_nav .dropdown-menu {
+		position: static;
+		float: none;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		transition: none;
+	}
+
+	.slicknav_nav .dropdown-menu li {
+		text-align: center;
+		padding: 5px 0;
+	}
+	.profile {
+		margin: 20px auto;
+	}
+	.profile-info {
+		margin: auto;
+	}
+}
+
+
+.class {
+    animation: transitionIn 0.75s;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

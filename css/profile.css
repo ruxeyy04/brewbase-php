@@ -1,0 +1,209 @@
+.main {
+    margin: 20px;
+    transition: all 0.5s ease;
+}
+.row {
+    margin: auto;
+}
+.profile {
+    border-radius: 10px;
+    width: 350px;
+    height: 360px;
+    background-color: rgba(235, 235, 235, 0.486);
+    box-shadow: 0 0 20px 1px black;
+    transition: all 0.5s ease;
+}
+.none {
+    display: none;
+}
+
+
+.prof-content {
+    text-align: center;
+}
+.prof-content button {
+    margin: 10px 5px;
+    background: rgba(173, 108, 23, 0.267);
+    font-size: 11pt;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease;
+
+}
+.prof-content button:hover {
+    background: rgba(38, 235, 38, 0.507);
+    box-shadow: 0 0 10px 0.5px;
+}
+.profile-info {
+    border-radius: 10px;
+    width: 700px;
+    height: auto;
+    box-shadow: 0 0 10px 1px;
+    margin-left: 30px;
+    padding-bottom: 20px;
+    transition: all 0.5s ease;
+}
+.profile-info .info {
+    margin-left: 20px;
+
+}
+.info h3 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.info h4 > input, h4 > select {
+    font-weight: 600;
+}
+.info input {
+    margin-left: 10px;  
+}
+
+.no-outline {
+    border: none;
+    outline: none;
+}
+
+.profile-info button{
+
+    display: none;
+    margin: 10px auto;
+    background: rgba(173, 108, 23, 0.267);
+    font-size: 11pt;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease;
+}
+.profile-info button:hover {
+    background: rgba(38, 235, 38, 0.507);
+    box-shadow: 0 0 10px 0.5px;
+}
+.animate {
+
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+.change-pass button {
+    display: block;
+    margin: 10px auto;
+    background: rgba(173, 108, 23, 0.267);
+    font-size: 11pt;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.5s ease;
+}
+.change-pass button:hover {
+    background: rgba(38, 235, 38, 0.507);
+    box-shadow: 0 0 10px 0.5px;
+}
+.reg-form-input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 100%;
+    font-size: var(--normal-font-size);
+    border-radius: .5rem;
+    outline: none;
+    padding: 1rem;
+    background: none;
+    z-index: 2;
+    border: 2px solid #DADCE0;
+  }
+  .reg-form-label{
+      
+    position: absolute;
+    left: 1rem;
+    top: 1.4rem;
+    padding: 0 .25rem;
+    color: var(--input-color);
+    font-size: var(--normal-font-size);
+    transition: .3s;
+    z-index: 1;
+  }
+  .reg-form-div{
+    position: relative;
+    width: 350px;
+    height: 48px;
+   margin: 10px;
+  
+  }
+  .reg-form-input:focus + .reg-form-label{
+      
+    top: -.8rem;
+    left: .8rem;
+    color: var(--first-color);
+    background-color: rgb(245, 245, 245);
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    z-index: 2;
+  }
+  
+ 
+  .reg-form-input:not(:placeholder-shown).reg-form-input:not(:focus)+ .reg-form-label{
+    background-color: rgb(245, 245, 245);
+    top: -.8rem;
+    left: .8rem;
+    font-size: var(--small-font-size);
+    font-weight: 600;
+    z-index: 2;
+  }
+  
+ 
+  .reg-form-input:focus{
+    border: 2px solid var(--first-color);
+  }
+  /* Register Profile*/
+.form-profile {
+    margin-top: 20px;
+  }
+  .form-profile .grid {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+    gap:20px;
+  }
+  .form-profile .grid .form-element {
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    box-shadow:0px 0px 20px 5px rgba(100,100,100,0.1);
+  }
+  .form-profile .grid .form-element input {
+    display:none;
+  }
+  .form-profile .grid .form-element img {
+    border-radius: 50%;
+    width:150px;
+    height:150px;
+    object-fit:cover;
+  }
+  .form-profile .grid .form-element div {
+    position:relative;
+    height:40px;
+    margin-top:-40px;
+    
+    text-align:center;
+    line-height:40px;
+    font-size:0px;
+    color:#f5f5f5;
+    font-weight:600;
+  }
+  .form-profile .grid .form-element div span {
+    font-size:40px;
+  }
